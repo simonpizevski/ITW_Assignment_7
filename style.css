@@ -1,0 +1,315 @@
+html {
+  background-color: white;
+  min-width: 600px;
+  height: 100%;
+  padding: 0px;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  max-height: fit-content;
+  font-family: "Courier New", Courier, monospace;
+  background-color: black;
+}
+
+/* --- BOX 1 --- WELCOME */
+
+.box1 {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: fit-content;
+
+  background-color: rgb(59, 59, 59);
+  background-blend-mode: multiply;
+  background-image: url(images/programming.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Name, education, school and picture */
+.welcome-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.aboutMePicContainer {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#titlePic {
+  font-size: 24px;
+  color: white;
+}
+
+#imgSelf {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+
+#titleFullName {
+  font-size: 75px;
+  margin: 0px;
+  color: orange;
+}
+
+#titleEducation {
+  font-size: 24px;
+  margin-top: 20;
+  margin-bottom: 50;
+  color: white;
+}
+
+/* --- BOX 2 --- ABOUT ME */
+
+.box2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: fit-content;
+  min-height: 100%;
+}
+
+/* CONTAINER PIC AND TEXT */
+
+.contAboutMe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* LEFT CONTAINER */
+
+/* RIGHT CONTAINER */
+
+.aboutMeTextContainer {
+  background-color: black;
+  color: white;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#titleAboutMe {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  color: orange;
+  font-size: 50px;
+}
+
+.aboutMeText {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 200px;
+  margin-right: 200px;
+  font-size: 24px;
+}
+
+/* --- BOX 3 --- RESUME */
+
+.box3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100%;
+}
+
+/* container resume */
+
+.resume {
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+#titleResume {
+  color: orange;
+  font-size: 50px;
+}
+
+.resumeContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.lernia {
+  color: white;
+  width: 400px;
+  height: fit-content;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+#titleLernia {
+  margin: 0;
+  font-size: 34px;
+  color: orange;
+}
+
+#txtLernia {
+  color: white;
+  font-size: 20px;
+}
+
+#dateLernia {
+  font-style: italic;
+  float: right;
+}
+
+.fedex {
+  color: white;
+  width: 400px;
+  height: fit-content;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+#titleFedex {
+  margin: 0;
+  font-size: 34px;
+  color: orange;
+}
+
+#txtFedex {
+  color: white;
+  font-size: 20px;
+}
+
+#dateFedex {
+  font-style: italic;
+  float: right;
+}
+
+.oresundsbron {
+  color: white;
+  width: 400px;
+  height: fit-content;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+#titleOsb {
+  margin: 0;
+  font-size: 34px;
+  color: orange;
+}
+
+#txtOsb {
+  color: white;
+  font-size: 20px;
+}
+
+#dateOsb {
+  font-style: italic;
+  float: right;
+}
+
+/* --- FOOTER --- */
+
+footer {
+  background-color: black;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  padding: 5px 1px 50px 1px;
+}
+
+/* Contact title */
+
+.contact {
+  color: orange;
+  display: flex;
+  justify-content: center;
+}
+
+/* Adressen i footer */
+
+.adress {
+  color: white;
+  text-align: center;
+}
+
+/*tel i footer */
+
+.tel {
+  color: white;
+  text-align: center;
+}
+
+/* links icons inside footer */
+
+.links {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  padding-top: 20px;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+
+.fa:hover {
+  opacity: 0.7;
+  cursor: pointer;
+  color: orange;
+}
+
+/* Email */
+.fa-envelope-o {
+  color: white;
+}
+
+/* Facebook */
+.fa-facebook {
+  color: white;
+}
+
+/* Github */
+.fa-github {
+  color: white;
+}
+
+/* style for line */
+hr.line {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    rgba(255, 255, 255, 0.75),
+    rgba(0, 0, 0, 0)
+  );
+}
